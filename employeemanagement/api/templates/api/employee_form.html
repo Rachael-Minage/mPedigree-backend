@@ -1,0 +1,6 @@
+<h2>Employee Form</h2>
+<form method="POST"  class="employee_form">
+    {%csrf_token%}
+    {{form.as_p}}
+<button type="submit"  class="submit_btn"> Register</button>
+</form>
